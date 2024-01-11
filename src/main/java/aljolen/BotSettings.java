@@ -6,6 +6,7 @@ public class BotSettings extends Properties {
 
     private final String token = getProperty("token");
     private final String username = getProperty("username");
+    private final long creator = Long.parseLong(getProperty("creator"));
 
     public BotSettings(Properties properties) {
         super(properties);
@@ -17,5 +18,9 @@ public class BotSettings extends Properties {
 
     public String getUsername() {
         return username;
+    }
+
+    public long getCreator() {
+        return creator;
     }
 }

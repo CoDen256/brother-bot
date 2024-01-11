@@ -1,41 +1,35 @@
 package aljolen;
 
-import org.telegram.telegrambots.meta.api.objects.Update;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
-import org.telegram.telegrambots.meta.generics.BotOptions;
-import org.telegram.telegrambots.meta.generics.LongPollingBot;
+import static org.telegram.abilitybots.api.objects.Locality.ALL;
+import static org.telegram.abilitybots.api.objects.Locality.USER;
+import static org.telegram.abilitybots.api.objects.Privacy.PUBLIC;
 
-public class BrotherBot implements LongPollingBot {
+import org.telegram.abilitybots.api.bot.AbilityBot;
+import org.telegram.abilitybots.api.objects.Ability;
+
+public class BrotherBot extends AbilityBot {
 
 
     private final BotSettings settings;
 
     public BrotherBot(BotSettings settings) {
+        super(settings.getToken(), settings.getUsername());
         this.settings = settings;
     }
 
-    @Override
-    public void onUpdateReceived(Update update) {
-
+    public Ability sayHelloWorld() {
+        return Ability
+                .builder()
+                .name("hello")
+                .info("says hello world!")
+                .locality(USER)
+                .privacy(PUBLIC)
+                .action(ctx -> silent.send("Hello world!", ctx.chatId()))
+                .build();
     }
 
     @Override
-    public BotOptions getOptions() {
-        return null;
-    }
-
-    @Override
-    public void clearWebhook() throws TelegramApiRequestException {
-
-    }
-
-    @Override
-    public String getBotUsername() {
-        return settings.getUsername();
-    }
-
-    @Override
-    public String getBotToken() {
-        return settings.getToken();
+    public long creatorId() {
+        return settings.getCreator();
     }
 }
