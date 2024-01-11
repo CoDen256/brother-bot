@@ -37,6 +37,10 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
-/.idea/
+.idea/*
+/.idea/*
 
 .idea
+app.config
+/app.config
+./app.config
