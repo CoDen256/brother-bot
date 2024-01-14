@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2024-01-14T19:19:04.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rBIRLVexh4UfvGAKeNpN" version="22.1.18" type="device">
+  <diagram name="Page-1" id="DdPSJ_c9sV7ZSJ3IClvS">
+    <mxGraphModel dx="2350" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42NCFGnls3GE2rdPDQEk-40" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="500" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="-480" y="540" width="269" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-7" value="Telegram Bot API" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-128.png" parent="1" vertex="1">
+          <mxGeometry x="-381" y="580" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-9" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-465" y="1000" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-10" value="Desktop Telegram&lt;br&gt;Client" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/29.Mac-128.png" parent="1" vertex="1">
+          <mxGeometry x="-480" y="850" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-12" value="Android Telegram&lt;br&gt;Client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.phone;" parent="1" vertex="1">
+          <mxGeometry x="-301" y="870" width="23.6" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-14" value="Telegram API" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-128.png" parent="1" vertex="1">
+          <mxGeometry x="-381" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-421" y="850" as="sourcePoint" />
+            <mxPoint x="-371" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-291" y="860" as="sourcePoint" />
+            <mxPoint x="-361" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-361" y="700" as="sourcePoint" />
+            <mxPoint x="-361" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="42NCFGnls3GE2rdPDQEk-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-331" y="600" as="sourcePoint" />
+            <mxPoint x="79" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="42NCFGnls3GE2rdPDQEk-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79" y="590" as="sourcePoint" />
+            <mxPoint x="-331" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-23" value="poll updates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="547" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-24" value="updates &lt;br&gt;(new messages from chat in JSON)&lt;br&gt;E.g. {&quot;message&quot;: &quot;/start&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="610" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-26" value="Telegram Servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-470" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-30" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-304.2" y="1000" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="990" as="sourcePoint" />
+            <mxPoint x="-450" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-289.4" y="990" as="sourcePoint" />
+            <mxPoint x="-289.4" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-36" value="*chatting with bot*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="940" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-43" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Raspberry Pi Zero W&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;rpi-alpha.local&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;align=left;" parent="1" vertex="1">
+          <mxGeometry x="88.19" y="500" width="23.62" height="23.62" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-89" value="Brother Bot&lt;br&gt;Java Process" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="577" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XmG7dp6rFe_Gg64nvcyL-5" value="Local Dev PC" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Desktop.svg;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="281" y="504" width="36.11" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XmG7dp6rFe_Gg64nvcyL-6" value="OR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-2" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="547" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-3" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-5" value="Send message in the bot chat&lt;br&gt;E.g. &quot;/start&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="1010" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-7" value="Run Implemented Logic for particular message:&lt;br&gt;E.g.&amp;nbsp;&lt;br&gt;/start -&amp;gt; send(&quot;Hello&quot;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="590" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-8" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-9" value="E.g. {chat: &quot;bot&quot;, message: &quot;/start&quot;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-304" y="800" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-89" target="42NCFGnls3GE2rdPDQEk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="630" as="sourcePoint" />
+            <mxPoint x="270" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-11" value="Send message &quot;hello&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="360" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-12" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="620" as="sourcePoint" />
+            <mxPoint x="-330" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-570" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-14" value="New message &quot;hello&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="760" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfhVu2r1S_1FaIcsjDqO-15" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
