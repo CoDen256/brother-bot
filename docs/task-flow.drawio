@@ -1,0 +1,318 @@
+<mxfile host="app.diagrams.net" modified="2024-01-14T16:03:26.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tmog13r3yTampq7aoCwG" version="22.1.18" type="google">
+  <diagram name="Page-1" id="DdPSJ_c9sV7ZSJ3IClvS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42NCFGnls3GE2rdPDQEk-40" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=10;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="880" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="540" width="269" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="540" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-4" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Raspberry Pi Zero W&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;rpi-beta.local&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="23.62" height="23.62" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-7" value="Telegram Bot API" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-128.png" vertex="1" parent="1">
+          <mxGeometry x="-381" y="580" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-9" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="1000" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-10" value="Desktop Telegram&lt;br&gt;Client" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/29.Mac-128.png" vertex="1" parent="1">
+          <mxGeometry x="-480" y="850" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-12" value="Android Telegram&lt;br&gt;Client" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.phone;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="870" width="23.6" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-14" value="Telegram API" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-128.png" vertex="1" parent="1">
+          <mxGeometry x="-381" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-421" y="850" as="sourcePoint" />
+            <mxPoint x="-371" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-291" y="860" as="sourcePoint" />
+            <mxPoint x="-361" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-361" y="700" as="sourcePoint" />
+            <mxPoint x="-361" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-331" y="600" as="sourcePoint" />
+            <mxPoint x="79" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79" y="590" as="sourcePoint" />
+            <mxPoint x="-331" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-23" value="poll updates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="560" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-24" value="updates (JSON)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-26" value="Telegram Servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-470" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-29" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;LAN&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-30" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-304.2" y="1000" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="990" as="sourcePoint" />
+            <mxPoint x="-450" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-289.4" y="990" as="sourcePoint" />
+            <mxPoint x="-289.4" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="540" as="sourcePoint" />
+            <mxPoint x="-80" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-35" value="REST &lt;br&gt;HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-34">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-36" value="*chatting with bot*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="940" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-37" value="PDF Printer" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;" vertex="1" parent="1">
+          <mxGeometry x="374.2" y="260" width="30" height="25.5" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Brother&amp;nbsp;MFCL2710DW&lt;br&gt;192.168.0.194&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=left;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="20" height="15.5" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-43" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Raspberry Pi Zero W&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;rpi-alpha.local&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;align=left;" vertex="1" parent="1">
+          <mxGeometry x="88.19" y="500" width="23.62" height="23.62" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-45" value="Brother Printer&lt;br&gt;API&lt;br&gt;&lt;i&gt;&lt;b&gt;:515&lt;/b&gt;&lt;/i&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;" vertex="1" parent="1">
+          <mxGeometry x="170" y="334.5" width="30" height="25.5" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-46" value="Brother&lt;br&gt;Web UI&lt;br&gt;&lt;b&gt;:80&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/seo-and-web-development-6/32/Web_website_favorite_site_star-128.png" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-47" target="42NCFGnls3GE2rdPDQEk-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-47" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-106" y="315" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-51" value="CUPS Server&#xa;:631" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.cups.org/apple-touch-icon.png;" vertex="1" parent="1">
+          <mxGeometry x="370.2" y="322.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-52" value="CUPS&#xa;Web UI&#xa;:631" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.cups.org/apple-touch-icon.png;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="790" y="315" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="333.32" as="sourcePoint" />
+            <mxPoint x="30" y="333.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-56" value="&lt;br&gt;HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-55">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1206" y="360" as="targetPoint" />
+            <mxPoint x="1010" y="349" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-58" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-59" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="336.90999999999997" as="sourcePoint" />
+            <mxPoint x="980" y="336.90999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-60" value="&lt;br&gt;HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-59">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.267;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.416;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-51" target="42NCFGnls3GE2rdPDQEk-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="309.7" as="sourcePoint" />
+            <mxPoint x="390" y="309.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="341" as="sourcePoint" />
+            <mxPoint x="790" y="339.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-70" value="print doc&lt;br&gt;get jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="309.47" as="sourcePoint" />
+            <mxPoint x="305" y="309.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-72" value="LPR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-71">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-73" value="SSH/SFTP Server&lt;br&gt;:20" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="193.5" width="48.74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-75" value="Local Filesystem" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="193.5" width="48.74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-73" target="42NCFGnls3GE2rdPDQEk-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="230" as="sourcePoint" />
+            <mxPoint x="640" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.969;exitY=0.142;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-37" target="42NCFGnls3GE2rdPDQEk-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="225" as="sourcePoint" />
+            <mxPoint x="629" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="320" as="sourcePoint" />
+            <mxPoint x="1100" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-79" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="258.46" as="sourcePoint" />
+            <mxPoint x="990" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-80" value="SSH/SFTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-79">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-81" value="adjust settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-82" value="Printer API Service&lt;br&gt;:8080" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="42NCFGnls3GE2rdPDQEk-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-87" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="364.22999999999996" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-88" value="HTTP?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-87">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-89" value="Brother Bot&lt;br&gt;Java Process" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="577" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42NCFGnls3GE2rdPDQEk-89" target="42NCFGnls3GE2rdPDQEk-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="580" as="sourcePoint" />
+            <mxPoint x="540" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-94" value="REST &lt;br&gt;HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="42NCFGnls3GE2rdPDQEk-93">
+          <mxGeometry x="0.4229" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-95" value="get jobs, printers&lt;br&gt;submit printer job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="610" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-96" value="GET /printers&lt;br&gt;GET /printers/{printer}&lt;br&gt;GET /printers/{printer}/jobs&lt;br&gt;POST /printers/{printer}/jobs&lt;br&gt;GET /printers/{printer}/jobs/{job}&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="618.74" y="520" width="181.26" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-97" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1015" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-98" value="&lt;i&gt;&lt;b&gt;Send PDF to the bot&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-100" value="&lt;i&gt;&lt;b&gt;Poll Updates&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3.19" y="493.62" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-102" value="&lt;i&gt;&lt;b&gt;Receive update containing PDF&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23.19" y="710" width="181.81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-103" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3.1899999999999977" y="715" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-105" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-16.810000000000002" y="498.62" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-106" value="&lt;i&gt;&lt;b&gt;Read the PDF, submit it to the Printer API Service&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435.2" y="735" width="294.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-107" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="415.2" y="740" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-108" value="&lt;i&gt;&lt;b&gt;The Printer Service forwards the doc to the CUPS server, which forwards it to the Brother Printer&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-109" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="42NCFGnls3GE2rdPDQEk-110" value="print doc&lt;br&gt;get jobs..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

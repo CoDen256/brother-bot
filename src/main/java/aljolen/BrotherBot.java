@@ -9,6 +9,7 @@ import org.telegram.abilitybots.api.bot.BaseAbilityBot;
 import org.telegram.abilitybots.api.objects.Ability;
 import org.telegram.abilitybots.api.objects.Flag;
 import org.telegram.abilitybots.api.objects.Reply;
+import org.telegram.abilitybots.api.toggle.BareboneToggle;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.objects.Document;
 import org.telegram.telegrambots.meta.api.objects.File;
@@ -23,15 +24,14 @@ public class BrotherBot extends AbilityBot {
     private final BotSettings settings;
 
     public BrotherBot(BotSettings settings) {
-        super(settings.getToken(), settings.getUsername());
+        super(settings.getToken(), settings.getUsername(), new BareboneToggle());
         this.settings = settings;
     }
 
     public Ability sayHelloWorld() {
         return Ability
                 .builder()
-                .name("hello")
-                .info("says hello world!")
+                .name("start")
                 .locality(USER)
                 .privacy(PUBLIC)
                 .action(ctx -> silent.send("Hello world!", ctx.chatId()))
@@ -68,5 +68,4 @@ public class BrotherBot extends AbilityBot {
             throw new RuntimeException(e);
         }
     }
-
 }
