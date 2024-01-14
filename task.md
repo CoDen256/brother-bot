@@ -2,7 +2,7 @@
 @brobrobotbotbot
 
 # Tasks
-![](docs\task-reduced.drawio.png)
+![](./docs/task-reduced.drawio.png)
 
 
 ## Task 1
@@ -43,7 +43,7 @@
 
 
 The full version
-![](docs\task-whole.drawio.png)
+![](./docs/task-whole.drawio.png)
 
 
 
@@ -88,4 +88,4 @@ https://github.com/rubenlagus/TelegramBots/wiki/Getting-Started
 7. **Any Document + {number}** - Prints n copies of the
 
 # The Big Picture
-![](docs\task-flow.drawio.png)
+![](./docs/task-flow.drawio.png)
