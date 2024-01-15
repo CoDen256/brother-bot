@@ -76,26 +76,50 @@ Extended architecture of the main components:
 
 ## Tasks
 ### Task 1
-Get JSON list of printers via Postman (GET /printers) (siehe below Printer API Service)
+1. Run in Postman: GET https://postman-echo.com/get and inspect the response
+2. Google how to add a **_query parameter_** to the URL. Change the request to include a query parameter "a=1".
+3. Inspect the response from the 2. step. What has changed? What does the request do in general? What is the "url" field of the response?
+3. Get JSON list of printers using Printer API Service via Postman (GET /printers) (siehe below Printer API Service)
 
 ### Task 2
 Create a junit test PrinterServiceTest.mathWorks(), that checks whether the 2+2 is 4 and fails if its not,
 using `assertEquals`
 
 ### Task 3
-1. Remove previous `assertEquals` check
-2. Create an http client
-3. Let the http client execute GET www.google.com/
-4. Let the http client execute the GET /printers endpoint of the Printer API Service instead
+1. Run PrinterServiceTest.httpClient() test and observe, if it's the same as the Postman request+response from task 1
+2. Verify that the URL from the "url" field of the response has been parsed correctly on the last output line of the test
+3. Change the behavior of the test to run request with a query parameter "c=5". Inspect the "args" field of the response in the output
+4. Change the behavior of the test to parse the "args" field instead of the "url" field. Print the args field.
+
 
 ### Task 4
-Extend the test with http client, expecting two printers !!! JSON PArser?
+1. Remove the parsing part of the previous responses.
+2. Let the new http client execute the GET /printers endpoint of the Printer API Service instead. Run the test. It should print the response obtained after executing GET /printers request
+3. Inspect the response, that was obtained from the executing /printers endpoint. Is it the same as in the one from postman in task 1?
+4. Parse the response into JSON Array Object. Print the first object of the JSON Array
+5. Parse the "name" field of the first object of the JSON Array into String. Print it.
+
 
 ### Task 5
-Add an implementation of printer service api that does nothing
-
+1. Create an instance of class aljolen.api.model.Printer in the same test. What parameters does it require to be passed?
+2. Parse the "name", "url", "description", "location" fields  of the **FIRST!** printer of the JSON Array response, when executing GET /printers endpoint.
+3. Create a new Printer() instance, passing the parsed fields from the JSON object in the fields with the same name.
+4. Print out the printer instance
+5. Iterate over the JSON Array, that represents the response obtained from  GET /printers. 
+6. Parse an ArrayList<Printer>() of printers. Each element of the ArrayList corresponds to one JSON Object of the JSON Array of the response. 
 ### Task 6
-Add an implementation of printer service api that get printers
+1. Create a class that implements aljolen.api.PrinterService
+2. Add an implementation of printer service api that does nothing, when executing service.getPrinters(). Just returns empty Array
+3. Create a new test, instantiate the new class. Run .getPrinters() check that the list is empty via assertTrue(list.isEmpty()), where the list has the result of .getPrinters()
+
+### Task 7
+1. Extend the implementation of PrinterService that 
+- uses internally http client from before
+- runs the request to GET /printers, when .getPrinters() is executed
+- parses the response into JSON ARRAY
+- parses the JSON ARRRAY into the List of printers
+- returns the List of printers in .getPrinters()
+2. Create a test, run the service.getPrinters(), verify the length is two. (i.e. two printers)
 
 ### Task 7
 Get particular printer via postman (GET /printers/{printer})
@@ -131,7 +155,9 @@ New components:
 9. Create new bot, update token
 
 
-
+# Part IV — Improving
+1. Make inline buttons (Retry Job, Cancel Job, Pause Job, Update Status) 
+2. Printing with a copy parameter
 
 
 # Printer API Service

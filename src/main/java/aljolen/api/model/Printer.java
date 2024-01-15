@@ -29,4 +29,14 @@ public class Printer {
     public String getLocation() {
         return location;
     }
+
+    @Override
+    public String toString() {
+        return "Printer{" +
+                "name='" + name + '\'' +
+                ", url='" + url + '\'' +
+                ", description='" + description + '\'' +
+                ", location='" + location + '\'' +
+                '}';
+    }
 }

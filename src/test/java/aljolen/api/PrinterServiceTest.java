@@ -24,7 +24,7 @@ class PrinterServiceTest {
 
         //2. Create an HTTP request to https://postman-echo.com/get
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(new URI("https://postman-echo.com/get"))
+                .uri(new URI("https://postman-echo.com/get?a=1"))
                 .GET()
                 .build();
 
