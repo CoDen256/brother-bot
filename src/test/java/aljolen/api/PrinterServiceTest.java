@@ -1,15 +1,13 @@
 package aljolen.api;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
 import org.json.JSONObject;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 class PrinterServiceTest {
 
@@ -19,28 +17,28 @@ class PrinterServiceTest {
     }
 
 
-    @Disabled
     @Test
-    void httpClient() throws IOException {
+    void httpClient() throws IOException, URISyntaxException, InterruptedException {
         //1. Create an HTTP client
-        OkHttpClient client = new OkHttpClient.Builder().build();
+        HttpClient client = HttpClient.newHttpClient();
 
-        //2. Create an HTTP request to https://reqbin.com/echo/get/json
-        Request request = new Request.Builder()
-                .url("https://reqbin.com/echo/get/json")
-                .get()
+        //2. Create an HTTP request to https://postman-echo.com/get
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI("https://postman-echo.com/get"))
+                .GET()
                 .build();
 
-        //3. Call to the REST API
-        Response response = client.newCall(request).execute();
-        ResponseBody body = response.body();
-        assertNotNull(body);
-        System.out.println(body);
+        //3. Send the request via a client. Interpret body as String via BodyHandlers.ofString()
+        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        //4. Parse the response body
-        JSONObject object = new JSONObject(body.string());
-        boolean name = object.getBoolean("success");
-        System.out.println(name);
+        //4. Log the response body
+        String body = response.body();
+        System.out.println(body);   // print the body of the response
+
+        //5. Parse the response body
+        JSONObject object = new JSONObject(body);
+        String url = object.getString("url");
+        System.out.println(url);
     }
 
 }
