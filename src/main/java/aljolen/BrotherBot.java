@@ -5,21 +5,15 @@ import static org.telegram.abilitybots.api.objects.Privacy.PUBLIC;
 import static org.telegram.abilitybots.api.util.AbilityUtils.getChatId;
 
 import org.telegram.abilitybots.api.bot.AbilityBot;
-import org.telegram.abilitybots.api.bot.BaseAbilityBot;
 import org.telegram.abilitybots.api.objects.Ability;
-import org.telegram.abilitybots.api.objects.Flag;
-import org.telegram.abilitybots.api.objects.MessageContext;
 import org.telegram.abilitybots.api.objects.Reply;
 import org.telegram.abilitybots.api.toggle.BareboneToggle;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.objects.Document;
 import org.telegram.telegrambots.meta.api.objects.File;
-import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.io.InputStream;
-import java.util.Optional;
-import java.util.function.BiConsumer;
 
 public class BrotherBot extends AbilityBot {
 
@@ -31,26 +25,37 @@ public class BrotherBot extends AbilityBot {
         this.settings = settings;
     }
 
+    /** Defines the actions of the bot to perform as a response to a certain type of commands
+     */
     public Ability sayHelloWorldOnStart() {
         return Ability
                 .builder()
-                .name("start")
-                .locality(USER)
-                .privacy(PUBLIC)
-                .action(ctx -> sendHelloWorld(ctx))
+                .name("start")      // the name of the command
+                .locality(USER)     // Type of chats, where this command applies (USER, GROUP etc.)
+                .privacy(PUBLIC)    // who can invoke this command (PUBLIC=anybody, ADMIN=only admin)
+                .action(ctx -> sendHelloWorld(ctx.update()))    // action to perform on the invocation of the command
                 .build();
     }
 
-    public Reply sayCringeOnLocation() {
-        BiConsumer<BaseAbilityBot, Update> action = (bot, upd) -> {
-            sendCringe(upd);
-        };
-        return Reply.of(action, Flag.LOCATION);
+    /** Defines an action to perform on reply to certain kind of Update (new message, new pin, change of wallpaper etc.).
+     * Specifies filter, that defines what kind of messages this reply should be applied to.
+     * */
+    public Reply sayCringeOnSticker() {
+        return Reply.of(
+                (bot, upd) -> sendCringe(upd),   // Action on reply
+                upd -> isSticker(upd)            // What to reply to? Filter the message only with a sticker
+        );
     }
 
-    private void sendHelloWorld(MessageContext ctx) {
-        silent.send("Hello world!", ctx.chatId());
+    /** Filters messages that have sticker in it
+     * @return true, if the update has message and has sticker in it, otherwise false
+     * */
+    private boolean isSticker(Update update){
+        return update.hasMessage() && update.getMessage().hasSticker();
+    }
 
+    private void sendHelloWorld(Update upd) {
+        silent.send("Hello world!", getChatId(upd));
     }
 
     private void sendCringe(Update upd) {
